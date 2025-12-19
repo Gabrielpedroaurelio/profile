@@ -1,0 +1,64 @@
+[
+    {
+        "titulo":"ExtraSoft-Enterprise",
+        "img":"../../assets/images/projects/login-extrasoft.jpg",
+        "link":"http://extrasoft/public/app/views/auth/login.php",
+        "descricao":"Sistema ERP de gestao de Empresa com foco em gestão de Recursos Humanos, gestão de Estoque e Faturamento"
+    },
+    {
+        "titulo":"ExtraSoft-Gestao Escolar",
+        "img":"../../assets/images/projects/site-ipm.jpg",
+        "link":"http://gestao-escolar/site/public/views/auth/",
+        "descricao":"Sistema de Gestão Escolar para o Instituto Politecnico do Maiombe"
+    },
+    {
+        "titulo":"Projecto Zona Verde",
+        "img":"../../assets/images/projects/projecto-zonaverde.jpg",
+        "link":"http://fullstack/projects/green_zone/layout/home.html",
+        "descricao":"Projecto social para a proteção do meio ambiente"
+    },
+    {
+        "titulo":"Biblioteca-Online",
+        "img":"../../assets/images/projects/biblioteca .jpg",
+        "link":"http://extrasoft/public/app/views/auth/login.php",
+        "descricao":"A educação é direito de todos. Biblioteca online Gratuita"
+    },
+    {
+        "titulo":"EvaStral-Software",
+        "img":"../../assets/images/projects/loginsoft.jpg",
+        "link":"http://extrasoft/public/app/views/auth/login.php",
+        "descricao":"Sistema de gestão de associações sem fins lucrativos"
+    },
+    {
+        "titulo":"Os Filhos de Israel",
+        "img":"../../assets/images/projects/dashboard .jpg",
+        "link":"http://fullstack/projects/jw/filhos-jaco/view/",
+        "descricao":"API para o aprendizado biblico"
+    },
+    {
+        "titulo":"Android",
+        "img":"../../assets/images/projects/projecto-android.jpg",
+        "link":"http://fullstack/projects/projeto-android/",
+        "descricao":"A historia da mascote do Android"
+    },
+    {
+        "titulo":"Social Midia com Iframes",
+        "img":"../../assets/images/projects/social-iphone.jpg",
+        "link":"http://fullstack/projects/projeto-social/",
+        "descricao":"Criando uma ilusão de iphone"
+    },
+    {
+        "titulo":"Poema do cordel",
+        "img":"../../assets/images/projects/poema-cordel.jpg",
+        "link":"http://fullstack/projects/Projecto-Cordel/",
+        "descricao":"Quem não gosta de um poema? Um dos poemas mais conhecidos do Brasil"
+    },
+    {
+        "titulo":"Formulario de Criação de Conta com React",
+        "img":"../../assets/images/projects/loginDark.jpg",
+        "link":"http://fullstack/projects/Projecto-Cordel/",
+        "descricao":"Venha conhecer o primeiro de muitos projectos feitos em React"
+    }
+    
+  
+]
