@@ -42,14 +42,19 @@ servicos.map((servico) => {
 
 })
 function goto(target) {
-    const target_dom = document.getElementById(target).scrollIntoView()
-
+    // remove o '#' do id
+    const id = target.startsWith('#') ? target.slice(1) : target;
+    const target_dom = document.getElementById(id);
+    if (target_dom) {
+        target_dom.scrollIntoView({ behavior: 'smooth' });
+    }
 }
-const link_navbar = document.querySelectorAll('nav>a')
+
+const link_navbar = document.querySelectorAll('nav>a');
 link_navbar.forEach((link) => {
-    link.addEventListener("click",(eve)=>{
-        eve.preventDefault()
-      
-        goto(eve.target.id)
-    })
-})
+    link.addEventListener("click", (eve) => {
+        eve.preventDefault();
+        const href = link.getAttribute('href'); // pega apenas "#home"
+        goto(href);
+    });
+});
