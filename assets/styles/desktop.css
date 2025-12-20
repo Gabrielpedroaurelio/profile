@@ -1,0 +1,144 @@
+@media screen and (min-width:991px) {
+
+body>.header {}
+
+header .mdi-menu {}
+
+body>.header nav {}
+
+body>.header nav.extends {}
+
+body>.header nav a {}
+
+body>.header nav.extends a {}
+
+body>.header nav a:hover {}
+
+main {
+    max-width: 900px;
+    margin:50px auto 30px auto;
+}
+
+main h1 {}
+
+main section {}
+
+main section h1.title-section {}
+
+main section.home {
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+ 
+}
+
+main section.home .me {}
+
+main section.home .me .img {}
+
+main section.home .me .img img {}
+
+main section.home .me .img .social-media {}
+
+main section.home .me .img .social-media a {}
+
+main section.home .description {}
+
+main section.home .description .option {}
+
+main section.home .description .option a {}
+
+main section.home .description .option a:first-child {}
+
+main section.home .description .option a:last-child {}
+
+main section.projects {}
+
+main section.projects .grid {
+         grid-template-columns: repeat(3, 1fr);
+}
+
+main section.projects .card {}
+
+main section.projects .card img {}
+
+main section.projects .card .card-body {}
+
+main section.projects .card .card-body p {}
+
+main section.projects .card .card-body span.tec {}
+
+main section.projects .card .card-body a {}
+
+main section.projects .card .card-body a:hover {}
+
+main section.skills {}
+
+main section.skills .grid {
+         grid-template-columns: repeat(2, 1fr);
+}
+
+main section.skills .grid .card {}
+
+main section.skills .grid .card i {}
+
+main section.skills .grid .card h2 {}
+
+main section.skills .grid .card p {}
+
+   main section.tools .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+    }
+main section.tools .grid .card {}
+
+main section.tools .grid .card .tool {}
+
+main section.tools .grid .card .tool .descriptiontool {}
+
+main section.tools .grid .card .tool .valuestool {}
+
+main section.habilities .grid {
+         grid-template-columns: repeat(3, 1fr);
+}
+
+main section.habilities .grid .card {}
+
+main section.habilities .grid .card i {}
+
+main section.habilities .grid .card h3 {}
+
+main section.habilities .grid .card p {}
+
+main section.services {}
+
+main section.services .grid {
+         grid-template-columns: repeat(2, 1fr);
+}
+
+main section.services .card {}
+
+main section.services .card i {}
+
+main section.services .card h2 {}
+
+main section.services .card p {}
+
+main section.services .card a {}
+
+main section.contact {}
+
+main section.contact #formulario {}
+
+main section.contact #formulario .campo {}
+
+main section.contact #formulario .campo label {}
+
+main section.contact #formulario .campo input {}
+
+main section.contact #formulario .campo textarea {}
+
+main section.contact #formulario dialog {}
+}

@@ -2,9 +2,11 @@ import { GetDatas } from "./utils.js"
 document.querySelector('.mdi-menu').addEventListener('click', () => {
     document.querySelector('nav').classList.toggle('extends')
 })
-
-const projectos = await GetDatas('http://profile.com/app/apis/projectos.json')
+ 
+const url = 'http://profile.com/app/apis/'
+const projectos = await GetDatas(url + "projectos.json")
 console.log(projectos);
+const servicos = await GetDatas(url + "services.json")
 
 projectos.map((projecto) => {
     document.querySelector('section.projects>div.grid').innerHTML += `
@@ -17,10 +19,37 @@ projectos.map((projecto) => {
                         <p>
                             ${projecto.descricao}
                         </p>
-               <a href="${projecto.link}" target="_blank" class="mdi mdi-link">GitHub</a>
-                        
+                        <a href="${projecto.link}" target="_blank" class="mdi mdi-link">GitHub</a>
+                          <div>
+                          <h4>Tecnologias</h4>
+                    ${projecto.tecnologia.map((tec) => `<span class="tec">${tec}</span>`)}
+                    </div>                   
                     </div>
+                  
+    </div>
+    `
+
+})
+servicos.map((servico) => {
+    document.querySelector('section.services>div.grid').innerHTML += `
+    <div class="card">
+                    <i class="${servico.icon}"></i>
+                    <h2>${servico.title}</h2>
+                    <p>${servico.description}</p>
+                    <a href="">Solicitar Serviço</a>
                 </div>
     `
 
+})
+function goto(target) {
+    const target_dom = document.getElementById(target).scrollIntoView()
+
+}
+const link_navbar = document.querySelectorAll('nav>a')
+link_navbar.forEach((link) => {
+    link.addEventListener("click",(eve)=>{
+        eve.preventDefault()
+      
+        goto(eve.target.id)
+    })
 })

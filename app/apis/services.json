@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "icon":"mdi mdi-code-braces",
+        "title":"Desenvolvimento de WebSites",
+        "description":"Desenvolvimento de sites, blogs Single Pages modernos, responsivos, dinamicos e serguros"
+    },
+    {
+        "id":1,
+        "icon":"mdi mdi-brain",
+        "title":"Desenvolvimento de Sistema",
+        "description":"Desenvolvimento de sistemas de informação, como  Sistema de Gestão Escolares, Hospitares, Hotelaria, Empresariais, E-commerces, Marketplaces, Gestão de Estoque e Faturamento e muito mais."
+    }
+]
