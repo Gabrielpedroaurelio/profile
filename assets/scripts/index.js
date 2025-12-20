@@ -3,7 +3,7 @@ document.querySelector('.mdi-menu').addEventListener('click', () => {
     document.querySelector('nav').classList.toggle('extends')
 })
  
-const url = 'http://profile.com/app/apis/'
+const url = 'https://gabrielpedroaurelio.github.io/profile/app/apis/'
 const projectos = await GetDatas(url + "projectos.json")
 console.log(projectos);
 const servicos = await GetDatas(url + "services.json")
