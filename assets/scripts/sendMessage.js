@@ -9,7 +9,7 @@ form.addEventListener("submit", async (evento) => {
 
     }
 
-    const url = "http://potifolio/portiolio/backend/php/form.php"
+    const url = "http://profile.com/assets/scripts/form.php"
     //const url = "../php/form.php"
     const option = {
         method: "POST",
