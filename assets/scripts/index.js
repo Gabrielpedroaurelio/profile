@@ -17,7 +17,7 @@ document.querySelector('.mdi-menu').addEventListener('click', () => {
     document.querySelector('nav').classList.toggle('extends')
 })
 
-const url = 'http://profile.com/app/apis/'
+const url = "https://gabrielpedroaurelio.github.io/profile/app/apis/"//'http://profile.com/app/apis/'
 
 // Load data and render
 async function init() {
