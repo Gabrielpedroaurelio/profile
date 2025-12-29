@@ -21,9 +21,12 @@
         transition: all 0s ease-in-out;
         top: 0px;
         background-image: linear-gradient(to top, transparent, transparent);
+                    background-color: transparent;
     }
 
-    body>.header nav.extends {}
+    body>.header nav.extends {
+
+    }
 
     body>.header nav a {
         opacity: 1;

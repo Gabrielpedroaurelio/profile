@@ -2,21 +2,21 @@
     {
         "titulo":"ExtraSoft-Enterprise",
         "img":"../../assets/images/projects/login-extrasoft.jpg",
-        "link":"http://extrasoft/public/app/views/auth/login.php",
-        "descricao":"Sistema ERP de gestao de Empresa com foco em gestão de Recursos Humanos, gestão de Estoque e Faturamento",
+        "link":"http://github.com/Gabrielpedroaurelio/",
+        "descricao":"Sistema ERP de Gestão de Empresa",
         "tecnologia":["HTML5","CSS3","JS","PHP","MYSQL"]
     },
     {
         "titulo":"ExtraSoft-Gestao Escolar",
         "img":"../../assets/images/projects/site-ipm.jpg",
-        "link":"http://gestao-escolar/site/public/views/auth/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Sistema de Gestão Escolar para o Instituto Politecnico do Maiombe",
         "tecnologia":["HTML5","CSS3","JS","PHP","MYSQL"]
     },
     {
         "titulo":"Projecto Zona Verde",
         "img":"../../assets/images/projects/projecto-zonaverde.jpg",
-        "link":"http://fullstack/projects/green_zone/layout/home.html",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Projecto social para a proteção do meio ambiente",
         "tecnologia":["HTML5","CSS3","JS"]
 
@@ -24,7 +24,7 @@
     {
         "titulo":"Biblioteca-Online",
         "img":"../../assets/images/projects/biblioteca .jpg",
-        "link":"http://extrasoft/public/app/views/auth/login.php",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"A educação é direito de todos. Biblioteca online Gratuita",
         "tecnologia":["HTML5","CSS3","JS","PHP","MYSQL"]
 
@@ -32,23 +32,31 @@
     {
         "titulo":"EvaStral-Software",
         "img":"../../assets/images/projects/loginsoft.jpg",
-        "link":"http://extrasoft/public/app/views/auth/login.php",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Sistema de gestão de associações sem fins lucrativos",
         "tecnologia":["JAVA","MYSQL"]
 
     },
     {
-        "titulo":"Os Filhos de Israel",
-        "img":"../../assets/images/projects/dashboard .jpg",
-        "link":"http://fullstack/projects/jw/filhos-jaco/view/",
-        "descricao":"API para o aprendizado biblico",
-        "tecnologia":["HTML5","CSS3","JS","PHP","MYSQL"]
+        "titulo":"IPM Noticias",
+        "img":"../../assets/images/projects/paginas_noticias.jpg",
+"link":"http://github.com/Gabrielpedroaurelio/",
+        "descricao":"Site de Noticias ",
+        "tecnologia":["HTML5","CSS3","Django","JS","SqLite3"]
+
+    },
+    {
+        "titulo":"Gestão de Declarações",
+        "img":"../../assets/images/projects/sistema_gestao_declaracao.png",
+        "link":"http://github.com/Gabrielpedroaurelio/",
+        "descricao":"Sistema de Gestão de Declarações Escolares",
+        "tecnologia":["React","Django","PostGreSql","Tailwind CSS"]
 
     },
     {
         "titulo":"Android",
         "img":"../../assets/images/projects/projecto-android.jpg",
-        "link":"http://fullstack/projects/projeto-android/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"A historia da mascote do Android",
         "tecnologia":["HTML5","CSS3","JS"]
         
@@ -56,21 +64,21 @@
     {
         "titulo":"Social Midia com Iframes",
         "img":"../../assets/images/projects/social-iphone.jpg",
-        "link":"http://fullstack/projects/projeto-social/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Criando uma ilusão de iphone",
         "tecnologia":["HTML5","CSS3","JS"]
     },
     {
         "titulo":"Poema do cordel",
         "img":"../../assets/images/projects/poema-cordel.jpg",
-        "link":"http://fullstack/projects/Projecto-Cordel/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Quem não gosta de um poema? Um dos poemas mais conhecidos do Brasil",
         "tecnologia":["HTML5","CSS3","JS"]
     },
     {
         "titulo":"Formulario de Signup",
         "img":"../../assets/images/projects/loginDark.jpg",
-        "link":"http://fullstack/projects/Projecto-Cordel/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Venha conhecer o primeiro de muitos projectos feitos em React",
         "tecnologia":["JS","Vite","React"]
 

@@ -4,9 +4,15 @@ body>.header {}
 
 header .mdi-menu {}
 
-body>.header nav {}
+body>.header nav {
+            background-image: linear-gradient(to top, transparent, transparent);
+            background-color: transparent;
+}
 
-body>.header nav.extends {}
+body>.header nav.extends {
+            background-image: linear-gradient(to top, transparent, transparent);
+            background-color: transparent;
+}
 
 body>.header nav a {}
 

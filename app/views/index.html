@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio | Gabriel Pedro Aurélio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Libraries CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="../../assets/scripts/index.js" defer type="module"></script>
     <script src="../../assets/scripts/sendMessage.js" defer></script>
     <link rel="stylesheet" href="../../assets/styles/index.css">
@@ -14,269 +24,270 @@
 </head>
 
 <body>
+    <!-- Background Animation Elements -->
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
     <header class="header">
-        <h1>Portfolio</h1>
+        <h1 class="logo">Portfolio</h1>
         <div>
             <span class="mdi mdi-menu"></span>
-            <nav>
-                <a href="#home" >Home</a>
-                <a href="#projects" >Projectos</a>
-                <a href="#skills" >Especialidades</a>
-                <a href="#tools" >Ferramentas</a>
-                <a href="#habilities" >Habilidades Profissionais</a>
-                <a href="#services" >Serviços</a>
-                <a href="#about" >Sobre</a>
-                <a href="#contact" >Contacto</a>
+            <nav id="navbar">
+                <a href="#home">Home</a>
+                <a href="#projects">Projectos</a>
+                <a href="#skills">Especialidades</a>
+                <a href="#tools">Ferramentas</a>
+                <a href="#habilities">Habilidades Profissionais</a>
+                <a href="#services">Serviços</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contacto</a>
             </nav>
         </div>
     </header>
     <main>
         <section class="home" id="home">
-            <div class="me">
-                <div class="img">
-                    <img src="../../assets/images/eu_edited.png" alt="">
+            <div class="me" data-aos="fade-right" data-aos-duration="1000">
+                <div class="img" data-tilt data-tilt-max="10" data-tilt-speed="400">
+                    <img src="../../assets/images/eu_edited.png" alt="Gabriel Pedro Aurélio">
                     <div class="social-media">
                         <a href="https://facebook.com/" class="mdi mdi-facebook"></a>
                         <a href="https://whatsapp.com/" class="mdi mdi-whatsapp"></a>
                         <a href="https://youtube.com/" class="mdi mdi-youtube"></a>
                         <a href="https://github.com/Gabrielpedroaurelio" class="mdi mdi-github"></a>
-                        <a href="https://linkedin" class="mdi mdi-linkedin"></a>
+                        <a href="https://linkedin/" class="mdi mdi-linkedin"></a>
                         <a href="mailto:gabrielpedroaurelio1@gmail.com" class="mdi mdi-google"></a>
-                        
                     </div>
                 </div>
             </div>
-            <div class="description">
+            <div class="description" data-aos="fade-left" data-aos-duration="1000">
                 <h1>Olá! Eu sou <strong> Gabriel Pedro Aurélio.</strong></h1>
                 <p>
-                    Desenvolvedor Junior focado na criação de soluções inovadores modernas e funcionais aos problemas
-                    que a sociedade passa, com o objectivo de tornar a vida mais viavél e produtiva com as tecnologia
-                    que estão regente no mundo.
-
-
+                    Desenvolvedor Junior focado na criação de soluções inovadoras, modernas e funcionais aos problemas
+                    que a sociedade enfrenta, com o objetivo de tornar a vida mais viável e produtiva com as tecnologias
+                    que estão regentes no mundo.
                 </p>
                 <div class="option">
-                    <a href="" class="mdi mdi-school">Projectos</a>
+                    <a href="#projects" class="mdi mdi-school">Projectos</a>
                     <a href="../../assets/docs/cv.pdf" class="mdi mdi-download"
                         download="cv-Gabriel-Pedro-Aurelio">Baixar CV</a>
                 </div>
             </div>
         </section>
+
         <section class="projects" id="projects">
-            <h1 class="title-section">Galeria de Projectos</h1>
+            <h1 class="title-section" data-aos="fade-up">Galeria de Projectos</h1>
             <div class="grid">
+                <!-- Injected via index.js -->
             </div>
         </section>
+
         <section class="skills" id="skills">
-            <h1 class="title-section">Especialidades</h1>
+            <h1 class="title-section" data-aos="fade-up">Especialidades</h1>
             <div class="grid">
-
-
-
-                <div class="card">
-
+                <div class="card" data-aos="zoom-in" data-tilt>
                     <i class="mdi mdi-code-braces"></i>
                     <h2>Web Development</h2>
                     <p>
-                        Desenvolvedor Web FullStack com competencias nos frameworks mais modernos e robusto como
-                        Django para o desenvolvimento backend e para o desenvolvimento
-                        frontend conto com uma gama de habilidades em React
-
+                        Desenvolvedor Web FullStack com competências nos frameworks mais modernos e robustos como
+                        Django para o desenvolvimento backend e React para o frontend.
                     </p>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-delay="100" data-tilt>
                     <i class="mdi mdi-database"></i>
-                    <h2>
-                        Administração de Banco de Dados SQL
-                    </h2>
+                    <h2>Administração de Banco de Dados SQL</h2>
                     <p>
-                        Especialista em administração de estruturas de banco de dados SQL com habilidade e
-                        competencias para projectar, modelar, desenvolver, realizar manunteção, optimizar e tornar
-                        seguro qualquer banco de dados isso seguindo todas as regras de negocios pre-estabelecias
+                        Especialista em administração de estruturas de banco de dados SQL com habilidade para projectar,
+                        modelar e optimizar qualquer banco de dados.
                     </p>
                 </div>
-
-
-
             </div>
-
         </section>
+
         <section class="tools" id="tools">
-            <h1 class="title-section">Ferramentas</h1>
+            <h1 class="title-section" data-aos="fade-up">Ferramentas</h1>
             <div class="grid">
-                <div class="card">
+                <!-- Card Frontend -->
+                <div class="card" data-aos="fade-right">
                     <h3 class="title">Frontend</h3>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-react" style="color: #3b82f6;"></i></span>
-                        <span class="valuestool " style="width: 30%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-react" style="color: #3b82f6;"></i> React</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 30%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-language-html5"
-                                style="color: #ff4400;"></i></span>
-                        <span class="valuestool" style="width: 90%;"></span>
+                        <span class="descriptiontool"><i class="mdi mdi-language-html5" style="color: #ff4400;"></i>
+                            HTML5</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
                         <span class="descriptiontool"><i class="mdi mdi-language-javascript"
-                                style="color: #fff200;"></i></span> <span class="valuestool" style="width:70%;"></span>
+                                style="color: #fff200;"></i> JavaScript</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-language-css3" style="color: #00aeff;"></i></span>
-                        <span class="valuestool" style="width: 80%;"></span>
+                        <span class="descriptiontool"><i class="mdi mdi-language-css3" style="color: #00aeff;"></i>
+                            CSS3</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
+                <!-- Card Backend -->
+                <div class="card" data-aos="fade-up">
                     <h3 class="title">Backend</h3>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-language-python" style="color: #003513;"></i></span>
-                        <span class="valuestool" style="width: 40%;"></span>
+                        <span class="descriptiontool"><i class="mdi mdi-language-python" style="color: #003513;"></i>
+                            Python</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 40%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-language-php" style="color: #3a10b9;"></i></span>
-                        <span class="valuestool" style="width: 55%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-language-php" style="color: #3a10b9;"></i>
+                            PHP</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 55%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-nodejs"style=" color: #10b981;"></i></span>
-                        <span class="valuestool" style="width: 46%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-database" style="color: #005c81;"></i>
+                            SQL</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 87%;"></div>
+                        </div>
+                    </div>
+                    <div class="tool">
+                        <span class="descriptiontool"><i class="mdi mdi-nodejs" style="color: #10b981;"></i>
+                            NodeJS</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 46%;"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <h3 class="title">Ferramentas de Desenvolvimento</h3>
+                <!-- Card DevTools -->
+                <div class="card" data-aos="fade-left">
+                    <h3 class="title">Dev Tools</h3>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-trello" style="color: #0592de;"></i></span>
-                        <span class="valuestool " style="width:21%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-trello" style="color: #0592de;"></i>
+                            Trello</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 21%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-git" style="color: #bc2525;"></i></span>
-                        <span class="valuestool " style="width: 46%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-git" style="color: #bc2525;"></i> Git</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 46%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-github" style="color: #7700ff;"></i></span>
-                        <span class="valuestool " style="width: 36%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-github" style="color: #7700ff;"></i>
+                            GitHub</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 36%;"></div>
+                        </div>
                     </div>
                     <div class="tool">
-                        <span class="descriptiontool"><i class="mdi mdi-microsoft-visual-studio-code" style="color: #255387;"></i></span>
-                        <span class="valuestool " style="width: 53%; "></span>
+                        <span class="descriptiontool"><i class="mdi mdi-microsoft-visual-studio-code"
+                                style="color: #255387;"></i> VS Code</span>
+                        <div class="valuestool">
+                            <div class="progress" style="width: 53%;"></div>
+                        </div>
                     </div>
-
                 </div>
             </div>
-
         </section>
+
         <section class="habilities" id="habilities">
-            <h1 class="title-section">Habilidades Profissionais</h1>
-
+            <h1 class="title-section" data-aos="fade-up">Habilidades Profissionais</h1>
             <div class="grid">
-
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-tilt>
                     <i class="mdi mdi-lightbulb-outline"></i>
                     <h3>Criactividade</h3>
-                    <p>
-                        Capacidade de propor Soluções originais e inovadoras para problemas técnicos e de disign.
-                        Sempre busco abordagens diferentes que melhoram a experiencia do usuario e otimizam
-                        processos.
-                    </p>
+                    <p>Capacidade de propor soluções originais e inovadoras.</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-delay="50" data-tilt>
                     <i class="mdi mdi-account-group-outline"></i>
                     <h3>Trabalho em Equipe</h3>
-
-                    <p>
-                        Sei colaborar em ambientes com diferentes perfis. Respeito ideias, contribuo activamente
-                        para alcançar objectivos em comum
-                    </p>
+                    <p>Colaboração em ambientes com diferentes perfis.</p>
                 </div>
-                <div class="card">
+                <!-- ... rest of habilities ... -->
+                <div class="card" data-aos="zoom-in" data-aos-delay="100" data-tilt>
                     <i class="mdi mdi-message-text-outline"></i>
                     <h3>Comunicação</h3>
-                    <p>
-                        Boa capacidade de expressar ideias técnicas e não tecnica de forma clara, tanto por escrito
-                        quanto verbalmente
-                    </p>
+                    <p>Capacidade de expressar ideias de forma clara.</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-delay="150" data-tilt>
                     <i class="mdi mdi-clock-outline"></i>
                     <h3>Gestão de Tarefas e Tempo</h3>
-                    <p>
-                        Organizo minhas actidades por prioridade e prazos
-                    </p>
+                    <p>Organização por prioridade e prazos.</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-delay="200" data-tilt>
                     <i class="mdi mdi-school-outline"></i>
                     <h3>Aprendizado Continuo</h3>
-                    <p>
-                        Tenho facilidade para aprender novas tecnologias e metodologias. Estou estudando e aplicando
-                        conhecimentos adquiridos rapidamente
-                    </p>
+                    <p>Facilidade para aprender novas tecnologias.</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-delay="250" data-tilt>
                     <i class="mdi mdi-walk"></i>
                     <h3>Autonomia</h3>
-                    <p>
-                        Capaz de trabalhar de forma independente , tomando decisões quando necessário e buscando
-                        Soluções sem depender de orientação constante
-                    </p>
+                    <p>Capaz de trabalhar de forma independente.</p>
                 </div>
-
-
             </div>
         </section>
+
         <section class="services" id="services">
-            <h1 class="title-section">Serviços</h1>
+            <h1 class="title-section" data-aos="fade-up">Serviços</h1>
             <div class="grid">
-
+                <!-- Injected via index.js -->
             </div>
         </section>
+
         <section class="about" id="about">
-            <h1 class="title-section">Sobre</h1>
-            <div class="content">
+            <h1 class="title-section" data-aos="fade-up">Sobre</h1>
+            <div class="content" data-aos="fade-up">
                 <p>
-                    Gabriel Pedro Aurelio, um desenvolver web junior, administrador de estruturas de Banco de Dados
-                    Relacionais e futuramente pretendo me especializar em Engenharia de Inteligencia Artificial,
-                    CyberSegurança, Ciencia de Dados e Administração de Servidores. No momento estou Estudando <strong
-                        style="color: #3b82f6;">React</strong> e <strong style="color: #10b981;">Django</strong>
+                    Gabriel Pedro Aurelio, um desenvolver web junior, administrador de Banco de Dados e futuramente
+                    pretendo me especializar em Engenharia de AI e CyberSegurança.
                 </p>
-
             </div>
         </section>
+
         <section class="contact" id="contact">
-            <h1 class="title-section">Fale Comigo</h1>
-            <form id="formulario">
+            <h1 class="title-section" data-aos="fade-up">Fale Comigo</h1>
+            <form id="formulario" data-aos="zoom-in">
                 <div class="campo">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" class="input-form">
+                    <input type="text" name="nome" id="nome" class="input-form" required>
                 </div>
                 <div class="campo">
                     <label for="email">E-mail</label>
-                    <input type="text" name="email" id="email" class="input-form">
+                    <input type="email" name="email" id="email" class="input-form" required>
                 </div>
                 <div class="campo">
                     <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" class="input-form">
+                    <input type="text" name="assunto" id="assunto" class="input-form" required>
                 </div>
                 <div class="campo">
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" class="input-form"></textarea>
+                    <textarea name="mensagem" id="mensagem" class="input-form" required></textarea>
                 </div>
                 <div class="campo">
                     <input type="submit" value="Enviar" name="enviar" id="submit">
                 </div>
-                <dialog class="ok">
-                    <p>
-                        Mensagem Enviada Com Sucesso
-                    </p>
-
-                </dialog>
-                <dialog class="error">
-                    <p>
-                        Mensagem Não Enviada
-                    </p>
-
-                </dialog>
+                <div id="form-message"></div>
             </form>
         </section>
-
     </main>
+
+    <!-- Libraries JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 </body>
 
 </html>
