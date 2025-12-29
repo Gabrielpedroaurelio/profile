@@ -40,14 +40,14 @@
     {
         "titulo":"IPM Noticias",
         "img":"../../assets/images/projects/paginas_noticias.jpg",
-"link":"http://github.com/Gabrielpedroaurelio/",
+        "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Site de Noticias ",
         "tecnologia":["HTML5","CSS3","Django","JS","SqLite3"]
 
     },
     {
         "titulo":"Gestão de Declarações",
-        "img":"../../assets/images/projects/sistema_gestao_declaracao.png",
+        "img":"../../assets/images/projects/dashboards01.jpg",
         "link":"http://github.com/Gabrielpedroaurelio/",
         "descricao":"Sistema de Gestão de Declarações Escolares",
         "tecnologia":["React","Django","PostGreSql","Tailwind CSS"]
